@@ -3,6 +3,8 @@ require("dotenv").config();
 const app = express();
 const port = process.env.PORT || 3000;
 
+// This is comment for testing the deployment of the first project on Render.com
+
 app.get("/", (req, res) => {
   res.send("Hello World! This is my first backend project.");
 });
