@@ -1,0 +1,15 @@
+{
+  "name": "deploy_first_project",
+  "version": "1.0.0",
+  "description": "This is for practicing the deploy of the backend project.",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "shubh tiwari",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^17.3.1",
+    "express": "^5.2.1"
+  }
+}
